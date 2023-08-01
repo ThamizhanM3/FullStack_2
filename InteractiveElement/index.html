@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <form action="#">
+            <fieldset id="input">
+                <legend>Details</legend>
+                <table>
+                    <tr>
+                        <td>Name</td>
+                        <td><input type="text" name="name" id="name"></td>
+                    </tr>
+                    <tr>
+                        <td>RollNo</td>
+                        <td><input type="text" name="" id="rno"></td>
+                    </tr>
+                    <tr>
+                        <td>Department</td>
+                        <td>
+                            <select name="" id="dept">
+                                <option value="CSE">CSE</option>
+                                <option value="EEE">EEE</option>
+                                <option value="ECE">ECE</option>
+                                <option value="MECH">MECH</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr >
+                        <td rowspan="2">
+                            Change Text Color to <br>
+                            [hex = #, rgb(), color]
+                        </td>
+                        <td><input type="text" name="" id="color"></td>
+                    </tr>
+                    <tr></tr>
+                    <tr>
+                        <td>
+                            <button onclick="printing()">Submit</button> 
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+            <fieldset id="output">
+                <legend>Your Details</legend>
+                <table>
+                    <tr>
+                        <td><h1 id="outt"></h1></td> 
+                    </tr>
+                </table>
+            </fieldset>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
